@@ -1,0 +1,23 @@
+# Tag creation template
+# Define multiple tags to create in a single run
+# Each tag must specify its type and parameters
+
+tags:
+  # Color-only tag
+  - type: "color"
+    name: "Critical"
+    description: "Critical data requiring special attention"
+    color: "RED"  # Options: RED, YELLOW, GREEN, BLUE, PURPLE, ORANGE, PINK, GRAY
+
+  # Emoji tag
+  - type: "emoji"
+    name: "PII"
+    description: "Contains Personally Identifiable Information"
+    color: "YELLOW"  # Options: RED, YELLOW, GREEN, BLUE, PURPLE, ORANGE, PINK, GRAY
+    emoji: "🔒"  # Any valid emoji
+
+  # Icon tag
+  - type: "icon"
+    name: "Database"
+    description: "Database related assets"
+    icon_name: "PhEcho"  # Must be a valid Atlan icon name 

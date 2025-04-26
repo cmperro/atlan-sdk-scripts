@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Instrument Type",
+        "values": ["Equities", "Economic Indices", "Multi-Asset"]
+    },
+    {
+        "name": "Frequency of Delivery",
+        "values": ["Daily", "Monthly", "Quarterly"]
+    },
+    {
+        "name": "Frequency of Data Points Update",
+        "values": ["Daily", "Monthly", "Intraday"]
+    },
+    {
+        "name": "Latency",
+        "values": ["T+1", "T+7", "T+14"]
+    },
+    {
+        "name": "Language",
+        "values": ["English", "French", "Spanish"]
+    },
+    {
+        "name": "Region",
+        "values": ["US", "EMEA", "APAC"]
+    },
+    {
+        "name": "Sector",
+        "values": ["Broad Market - All Sectors", "All", "Developed Markets"]
+    },
+    {
+        "name": "Platform",
+        "values": ["Bloomberg", "Fidelity", "Nasdaq"]
+    },
+    {
+        "name": "Licensing",
+        "values": ["Annual", "Quarterly", "Monthly"]
+    }
+]

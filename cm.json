@@ -1,0 +1,349 @@
+[
+    {
+        "name": "Company Information",
+        "attributes": {
+            "Vendor Name": {
+                "type": "Text",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Parent Company Name": {
+                "type": "Text",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Company Name": {
+                "type": "Text",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Company Website": {
+                "type": "URL",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Company Type": {
+                "type": "Text",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Company Alias": {
+                "type": "Text",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Short Description of Company": {
+                "type": "Text",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Product Information",
+        "attributes": {
+            "MDS Service": {
+                "type": "Text",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "MDSID (FITS ID)": {
+                "type": "Text",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Instrument Type": {
+                "type": "Enum",
+                "options": "Instrument Type",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Platform": {
+                "type": "Enum",
+                "options": "Platform",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Data Characteristics",
+        "attributes": {
+            "History Start Date": {
+                "type": "Date",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "History End Date (If applicable)": {
+                "type": "Date",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Frequency of Delivery": {
+                "type": "Enum",
+                "options": "Frequency of Delivery",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Frequency of Data Points Update (Data Granularity)": {
+                "type": "Enum",
+                "options": "Frequency of Data Points Update",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Latency": {
+                "type": "Enum",
+                "options": "Latency",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Point in Time": {
+                "type": "Date",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Source of Underlying Data": {
+                "type": "Text",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Language": {
+                "type": "Enum",
+                "options": "Language",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Geographical & Industry Coverage",
+        "attributes": {
+            "Region": {
+                "type": "Enum",
+                "options": "Region",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Sector": {
+                "type": "Enum",
+                "options": "Sector",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Administrative & Operational",
+        "attributes": {
+            "Licensing": {
+                "type": "Enum",
+                "options": "Licensing",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            },
+            "Support Contact": {
+                "type": "Text",
+                "options": "",
+                "multivalue": "False",
+                "applicable_connections": [],
+                "applicable_asset_types": [],
+                "applicable_glossaries": [],
+                "applicable_glossary_types": [],
+                "applicable_other_asset_types": [],
+                "applicable_domains": ["all"],
+                "applicable_domain_types": [
+                    "DataProduct"
+                ]
+            }
+        }
+    }
+]
